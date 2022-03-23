@@ -90,10 +90,15 @@ public class CommandTestUtil {
     public static final String INVALID_ADDRESS_DESC = " " + PREFIX_ADDRESS; // empty string not allowed for addresses
     public static final String INVALID_TAG_DESC = " " + PREFIX_TAG + "hubby*"; // '*' not allowed in tags
 
-    public static final String INVALID_EVENT_DESCRIPTION_DESC = " " + PREFIX_EVENT_DESCRIPTION + "/L@b"; // contains /
+    // '/' not allowed in event description
+    public static final String INVALID_EVENT_DESCRIPTION_DESC = " " + PREFIX_EVENT_DESCRIPTION + "/L@b";
+    // alphabets not allowed in date
     public static final String INVALID_EVENT_DATE_DESC = " " + PREFIX_DATE + "2022-March-14";
+    // missing ':' symbol
     public static final String INVALID_EVENT_TIME_DESC = " " + PREFIX_TIME + "1100";
+    // missing integer value
     public static final String INVALID_DURATION_DESC = " " + PREFIX_DURATION + "oneH";
+    // 'X' not allowed in recur frequency
     public static final String INVALID_RECUR_FREQUENCY_DESC = " " + PREFIX_RECUR_FREQUENCY + "X";
 
     public static final String PREAMBLE_WHITESPACE = "\t  \r  \n";
