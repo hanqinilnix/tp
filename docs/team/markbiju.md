@@ -18,6 +18,7 @@ Given below are my contributions to the project.
 * **New Feature**: Added the ability to view free common timings that people are free based on a date and tag input by the user
     * What it does: Shows the user which timings those who share a particular tag are free on a particular day, based on a tag and date input by the user
     * Justification: A user would want to know when their contacts from the saame group of friends(hence taking those with the same tag) would be free on a particular day to organise a meetup.
+    * How hard it was to implement: It was significantly difficult to ensure that this command was bug-free. The implementation of this command was revised several times to ensure that it worked as intended. This was due to many edge cases that needed to be handled in the implementation of this command.
     
 
 * **Code contributed**: [RepoSense link](https://nus-cs2103-ay2122s2.github.io/tp-dashboard/?search=markbiju&breakdown=true)
@@ -30,6 +31,7 @@ Given below are my contributions to the project.
       * Added and edited documentation for the 'viewGroup' and 'findCommonTiming' features
     * Developer guide:
       * Added implementation details for viewGroup and findCommonTiming
+      * Added sequence diagrams for viewGroup and findCommonTiming
 
 * **Community**:
     * PRs reviewed (with non-trivial review comments):
@@ -38,4 +40,4 @@ Given below are my contributions to the project.
       * [#58] (https://github.com/AY2122S2-CS2103T-W09-1/tp/pull/58)
 
 * **Tools**:
-    * to be added soon
+    * Used PlantUML to create sequence diagrams for two features implemented, viewGroup and findCommonTiming
